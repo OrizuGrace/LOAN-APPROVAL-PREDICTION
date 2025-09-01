@@ -29,23 +29,26 @@ The prediction logic prioritizes interpretability while maintaining reasonable a
 The dashboard comprises five interconnected pages designed for different analytical perspectives:
 * Loan Overview Page serves as the executive dashboard, displaying critical KPIs including 5,000 total loans with a 34.2% approval rate and $25.5K average loan amount. The monthly trend analysis reveals seasonal patterns in application volume, while loan distribution charts break down performance by type (Mortgage, Auto, Personal) and term length. The visualization effectively balances high-level metrics with detailed breakdowns.
  
-* Image: Loan Overview Dashboard Screenshot
+Image: Loan Overview Dashboard Screenshot
+  
 * Customer Insight Page provides comprehensive demographic analysis through an interactive geographic map showing loan distribution across 40 cities, complemented by gender and tenure segmentation charts. The age and utilization rate analysis reveals that older customers show higher approval rates, while the 63.2% average utilization rate indicates healthy credit management across the customer base.
  
-* Image: Customer Insight Dashboard Screenshot
+Image: Customer Insight Dashboard Screenshot
 
 * Risk & Anomaly Page focuses on risk assessment, highlighting that 300 total anomalies resulted in only 108 approvals (36% approval rate for anomalous cases). The risk level distribution shows balanced representation across low, medium, and high-risk categories, with the anomaly impact clearly visualized through comparative approval rates.
  
 Image: Risk & Anomaly Dashboard Screenshot
-Prediction Analysis Page validates our model performance with detailed accuracy metrics showing 50.9% prediction accuracy. The page includes a comprehensive customer-level prediction table demonstrating individual case analysis, while the forecast chart projects loan applications through 2025, supporting strategic capacity planning.
+* Prediction Analysis Page validates our model performance with detailed accuracy metrics showing 50.9% prediction accuracy. The page includes a comprehensive customer-level prediction table demonstrating individual case analysis, while the forecast chart projects loan applications through 2025, supporting strategic capacity planning.
  
 Image: Prediction Analysis Dashboard Screenshot
-Landing Page consolidates key insights and navigation, ensuring seamless user experience across all analytical dimensions.
-Key Insights and Findings
+* Landing Page consolidates key insights and navigation, ensuring seamless user experience across all analytical dimensions.
+
+### Key Insights and Findings
 Our analysis uncovered several critical patterns with significant business implications. While the overall loan approval rate stands at 34.2%, this number hides deeper differences across customer groups. For example, applications flagged as anomalies were much less likely to be approved as only about 36% got through, compared to much higher rates for clean applications.
 The prediction model achieved 50.9% accuracy when excluding "Needs Review" cases, revealing gaps between systematic risk assessment and actual decision-making. Many low-risk applications faced rejection while some high-risk cases received approval, indicating either unmeasured factors influencing decisions or inconsistent application of lending criteria.
 Geographic analysis revealed significant risk concentration in specific branches, suggesting either market-specific factors or operational inconsistencies requiring management attention.
-Recommendations
+
+### Recommendations
 The dashboard provides immediate value through enhanced visibility into lending operations. Management can now identify underperforming segments, monitor approval trends in real-time, and allocate resources based on predicted application volumes.
 Based on the insights, we recommend the following:
 ˗	Developing more nuanced rules for the “Needs Review” segment, possibly by identifying new risk indicators not yet considered
@@ -54,6 +57,6 @@ Based on the insights, we recommend the following:
 ˗	Reviewing mismatches where high-risk customers were approved or low-risk ones rejected, to improve decision quality and build trust in the system.
 
 
-Conclusion
+### Conclusion
 This dashboard transforms raw lending data into strategic insights, providing management with the tools needed to optimize approval processes, manage risk effectively, and plan for future growth. The combination of historical analysis and predictive capabilities creates a comprehensive solution addressing both operational efficiency and strategic planning needs.
 The 50.9% prediction accuracy, while modest, establishes a baseline for continuous improvement and highlights specific areas where enhanced data collection or refined logic could drive better outcomes. Most importantly, the dashboard's design ensures findings translate directly into actionable business decisions, maximizing the value of data-driven lending strategies.
